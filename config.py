@@ -3,10 +3,10 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "30510149"))
+API_HASH = os.environ.get("API_HASH", "40863e0a77fd80789861c05a7e8a34bd")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8283669513:AAHfNq4Ydg5h4v-CKxbVYCoEk0MoSOINswU")
+ADMIN = int(os.environ.get("ADMIN", "7667050661"))
 
 
 # Premium 4GB Renaming Client Config
@@ -14,13 +14,13 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "-1003656942560")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003644203182"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://filesharing1:filesharing1@filesharing1.eqtx1sn.mongodb.net/?appName=Filesharing1")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "filesharing1")
 
 
 # Other Variables Config
